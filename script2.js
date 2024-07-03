@@ -1,5 +1,5 @@
 const API_KEY = "2fcd50151e1c4dd4af480697de26c377";
-const url = "https://newsapi.org/v2/everything?q=";
+const url = "http://newsapi.org/v2/everything?q=";
 
 window.addEventListener("load", () => fetchNews("India"));//fetch news wale fuction ko call karega
 
